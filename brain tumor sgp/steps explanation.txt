@@ -1,0 +1,24 @@
+1. We load the image 
+2. we reshape it and flattern the image 
+3. then we ask k means algi th cluster pixels into 6 clusters(group pixels into 6 clusters)
+4. we got good extrection in cluster 4
+5. then we save the model 
+
+
+6. we keep cluster 4 recorded because cluster 4 extrats good
+7. we load all images into test images folder 
+8. gray image as well as coloured image both will be taken here 
+9. the nthe shape is taken 
+10. then we flattern the image 
+11. then apply to k meas and get cluster
+12. cluster is flattern version since image is flatten version 
+13. we convert cluster into 2d
+14. throughout the cluster we are extacting pixel which equal to label 4. coz label 4 is tumor cluster 
+15. we extract the  into mask 
+16. mask is pixel with cluster 4 will be 1 and all other cluster will be 0 
+17. then we find counters
+18. hirerchy contain several counters(cv2.counter for more info about counters)it help in shape 
+19. we extract conturs into small areas
+20. all counter are not required.
+21.  we go through each and every counter and measure area if area>1000 it will be of tumour and we draw boundry        rectangle.   
+ 

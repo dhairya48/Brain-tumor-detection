@@ -1,0 +1,8 @@
+matplotlib: Matplotlib is a plotting library for the Python. It provides an object-oriented API for embedding plots into applications (photo ni plotting karva)
+
+
+joblib: Joblib is such an pacakge that can simply turn our Python code into parallel computing mode and of course increase the computing speed
+
+numpy : for array
+
+contours: for shape of tomor and for rectengle .
